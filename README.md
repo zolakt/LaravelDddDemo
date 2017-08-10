@@ -17,6 +17,7 @@ Some key features:
 - domain objects are mapped to DTO objects, and vise-versa, in services (data structures can differ)
 - "Request-Response" pattern in services
 - "Common" components are generic, domain agnostic and can be reused in multiple projects
+- integrated with Laravel Authentication
 
 Note: for simple applications this approach can be made simpler by removing decoupling of DAL models to Eloquuent models.
 Eloquent models are used as domain models in that case, and the database-to-domain mapping can be removed.
